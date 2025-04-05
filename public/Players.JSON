@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "player_name": "Virat Kohli",
+    "country": "India",
+    "country_flag": "https://cdn.pixabay.com/photo/2012/04/10/23/03/india-26828_640.png",
+    "player_image": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_w_1200,q_60/lsci/db/PICTURES/CMS/361100/361170.jpg",
+    "role": "Batsman",
+    "batting_type": "Right-hand bat",
+    "bowling_type": "None",
+    "bidding_price": 150000000
+  },
+  {
+    "id": 2,
+    "player_name": "Joe Root",
+    "country": "England",
+    "country_flag": "https://plus.unsplash.com/premium_photo-1674591172569-834e3c928c3d?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "player_image": "https://i.guim.co.uk/img/media/a4601ccb3b6f56e2acd3aeea06632ba494c3cad4/21_144_2326_1395/master/2326.jpg?width=1900&dpr=1&s=none&crop=none",
+    "role": "Batsman",
+    "batting_type": "Right-hand bat",
+    "bowling_type": "None",
+    "bidding_price": 120000000
+  },
+  {
+    "id": 3,
+    "player_name": "Rashid Khan",
+    "country": "Afghanistan",
+    "country_flag": "https://cdn.britannica.com/40/5340-004-B25ED5CF/Flag-Afghanistan.jpg",
+    "player_image": "https://admin.thecricketer.com/weblab/sites/96c8b790-b593-bfda-0ba4-ecd3a9fdefc2/resources/images/site/rashid13012301.jpg",
+    "role": "Bowler",
+    "batting_type": "Right-hand bat",
+    "bowling_type": "Leg break",
+    "bidding_price": 80000000
+  },
+  {
+    "id": 4,
+    "player_name": "David Warner",
+    "country": "Australia",
+    "country_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Flag_of_Australia.svg/2560px-Flag_of_Australia.svg.png",
+    "player_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdugj8kyAjD1IKk_QQ3ZAKCUVUB0-eICceGA&s",
+    "role": "Batsman",
+    "batting_type": "Left-hand bat",
+    "bowling_type": "None",
+    "bidding_price": 130000000
+  },
+  {
+    "id": 5,
+    "player_name": "Kane Williamson",
+    "country": "New Zealand",
+    "country_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Flag_of_New_Zealand.png/1200px-Flag_of_New_Zealand.png",
+    "player_image": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_w_1200,q_60/lsci/db/PICTURES/CMS/397500/397562.jpg",
+    "role": "Batsman",
+    "batting_type": "Right-hand bat",
+    "bowling_type": "None",
+    "bidding_price": 110000000
+  },
+  {
+    "id": 6,
+    "player_name": "AB de Villiers",
+    "country": "South Africa",
+    "country_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Flag_of_South_Africa.svg/2560px-Flag_of_South_Africa.svg.png",
+    "player_image": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_w_1200,q_60/lsci/db/PICTURES/CMS/320500/320522.jpg",
+    "role": "Batsman",
+    "batting_type": "Right-hand bat",
+    "bowling_type": "None",
+    "bidding_price": 140000000
+  },
+  {
+    "id": 7,
+    "player_name": "Steve Smith",
+    "country": "Australia",
+    "country_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Flag_of_Australia.svg/2560px-Flag_of_Australia.svg.png",
+    "player_image": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_w_1200,q_60/lsci/db/PICTURES/CMS/396100/396183.jpg",
+    "role": "Batsman",
+    "batting_type": "Right-hand bat",
+    "bowling_type": "None",
+    "bidding_price": 135000000
+  },
+  {
+    "id": 8,
+    "player_name": "Shakib Al Hasan",
+    "country": "Bangladesh",
+    "country_flag": "https://images.unsplash.com/photo-1676970132913-e3db8e8493c3?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "player_image": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_w_1200,q_60/lsci/db/PICTURES/CMS/390400/390403.jpg",
+    "role": "All-rounder",
+    "batting_type": "Left-hand bat",
+    "bowling_type": "Left-arm orthodox",
+    "bidding_price": 95000000
+  },
+  {
+    "id": 9,
+    "player_name": "Ben Stokes",
+    "country": "England",
+    "country_flag": "https://plus.unsplash.com/premium_photo-1674591172569-834e3c928c3d?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "player_image": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_w_1200,q_60/lsci/db/PICTURES/CMS/393200/393202.jpg",
+    "role": "All-rounder",
+    "batting_type": "Left-hand bat",
+    "bowling_type": "Right-arm fast-medium",
+    "bidding_price": 160000000
+  },
+  {
+    "id": 10,
+    "player_name": "Faf du Plessis",
+    "country": "South Africa",
+    "country_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Flag_of_South_Africa.svg/2560px-Flag_of_South_Africa.svg.png",
+    "player_image": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_w_1200,q_60/lsci/db/PICTURES/CMS/378800/378857.jpg",
+    "role": "Batsman",
+    "batting_type": "Right-hand bat",
+    "bowling_type": "None",
+    "bidding_price": 105000000
+  },
+  {
+    "id": 11,
+    "player_name": "Glenn Maxwell",
+    "country": "Australia",
+    "country_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Flag_of_Australia.svg/2560px-Flag_of_Australia.svg.png",
+    "player_image": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_w_1200,q_60/lsci/db/PICTURES/CMS/395100/395197.jpg",
+    "role": "All-rounder",
+    "batting_type": "Right-hand bat",
+    "bowling_type": "Right-arm off-break",
+    "bidding_price": 125000000
+  },
+  {
+    "id": 12,
+    "player_name": "Imam-ul-Haq",
+    "country": "Pakistan",
+    "country_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Flag_of_Pakistan.svg/2560px-Flag_of_Pakistan.svg.png",
+    "player_image": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_w_1200,q_60/lsci/db/PICTURES/CMS/365900/365943.jpg",
+    "role": "Batsman",
+    "batting_type": "Left-hand bat",
+    "bowling_type": "None",
+    "bidding_price": 80000000
+  }
+]
