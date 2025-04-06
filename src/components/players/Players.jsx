@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import Button from "../button/Button";
 import PlayerList from "./PlayerList";
 import SelectedPlayers from "./SelectedPlayers";
+import { toast, Bounce } from "react-toastify";
 
 const Players = ({ playersData, onChoosePlayer, selected, onDeletePlayer }) => {
   const [showSelect, setShowSelect] = useState(false);
@@ -22,7 +23,17 @@ const Players = ({ playersData, onChoosePlayer, selected, onDeletePlayer }) => {
 
   function handleShowSelect() {
     if (!selectedPlayers.length) {
-      alert("No Player is Selected");
+      toast.warn("No Player is Selected!", {
+        position: "top-center",
+        autoClose: 3000,
+        hideProgressBar: false,
+        closeOnClick: false,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "dark",
+        transition: Bounce,
+      });
       return;
     }
     setShowSelect(true);
