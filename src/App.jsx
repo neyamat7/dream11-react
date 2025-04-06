@@ -3,6 +3,7 @@ import Navbar from "./components/navbar/Navbar";
 import Banner from "./components/banner/Banner";
 import Players from "./components/players/Players";
 import { useEffect } from "react";
+import Footer from "./components/footer/Footer";
 
 const App = () => {
   const [coins, setCoins] = useState(0);
@@ -42,17 +43,20 @@ const App = () => {
   }
 
   return (
-    <div className="max-w-screen-2xl mx-auto px-5">
-      <Navbar coins={coins}></Navbar>
-      <Banner onCoinClaim={coinClaimHandler}></Banner>
-      <Players
-        coins={coins}
-        playersData={playersData}
-        onChoosePlayer={handleChoosePlayer}
-        selected={selected}
-        onDeletePlayer={handleDeletePlayer}
-      ></Players>
-    </div>
+    <>
+      <div className="max-w-screen-2xl mx-auto px-5">
+        <Navbar coins={coins}></Navbar>
+        <Banner onCoinClaim={coinClaimHandler}></Banner>
+        <Players
+          coins={coins}
+          playersData={playersData}
+          onChoosePlayer={handleChoosePlayer}
+          selected={selected}
+          onDeletePlayer={handleDeletePlayer}
+        ></Players>
+      </div>
+      <Footer></Footer>
+    </>
   );
 };
 

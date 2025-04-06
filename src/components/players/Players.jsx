@@ -74,6 +74,7 @@ const Players = ({ playersData, onChoosePlayer, selected, onDeletePlayer }) => {
         <SelectedPlayers
           playersData={playersData}
           selected={selected}
+          showSelect={showSelect}
           setShowSelect={setShowSelect}
           selectedPlayers={selectedPlayers}
           onDeletePlayer={onDeletePlayer}

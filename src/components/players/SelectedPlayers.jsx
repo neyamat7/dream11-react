@@ -2,12 +2,13 @@ import Button from "../button/Button";
 import SelectedPlayer from "./SelectedPlayer";
 
 const SelectedPlayers = ({
+  showSelect,
   setShowSelect,
   selectedPlayers,
   onDeletePlayer,
 }) => {
   return (
-    <>
+    <div className={showSelect ? null : "hidden"}>
       {selectedPlayers.map((player) => (
         <SelectedPlayer
           key={player.id}
@@ -22,7 +23,7 @@ const SelectedPlayers = ({
           bg={"#E7FE29"}
         ></Button>
       </div>
-    </>
+    </div>
   );
 };
 
