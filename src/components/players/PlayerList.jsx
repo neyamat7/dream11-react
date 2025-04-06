@@ -18,7 +18,7 @@ const PlayerList = (props) => {
 
   const onChoosePlayer = props.onChoosePlayer;
   return (
-    <div className="max-h-[530px] h-full w-full border border-gray-200 p-4 space-y-3 rounded-lg">
+    <div className="min-h-[510px] sm:min-h-[480px] max-h-[530px] max-w-[560px] h-full w-full border border-gray-200 p-4 space-y-3 rounded-lg">
       <div className="w-full max-h-[240px] h-full">
         <img
           className="rounded-lg w-full h-full"
