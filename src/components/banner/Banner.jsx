@@ -25,7 +25,7 @@ const Banner = ({ onCoinClaim }) => {
       <div className="absolute inset-0 z-10 h-full w-full">
         <img
           className="h-full w-full rounded-lg"
-          src="/public/assets/bg-shadow.png"
+          src="/assets/bg-shadow.png"
           alt=""
         />
       </div>
