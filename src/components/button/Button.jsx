@@ -1,5 +1,5 @@
 const Button = ({ label, icon, bg, blackBorder, onclick }) => {
-  console.log(bg);
+ 
 
   return (
     <div

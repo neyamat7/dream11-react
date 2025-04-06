@@ -2,6 +2,8 @@ import { FaUserAlt } from "react-icons/fa";
 import Button from "../button/Button";
 
 const PlayerList = (props) => {
+  const selected = props.selected;
+
   const {
     id,
     player_name,
@@ -13,6 +15,7 @@ const PlayerList = (props) => {
     bowling_type,
     bidding_price,
   } = props.player;
+
   const onChoosePlayer = props.onChoosePlayer;
   return (
     <div className="max-h-[530px] h-full w-full border border-gray-200 p-4 space-y-3 rounded-lg">
@@ -54,7 +57,8 @@ const PlayerList = (props) => {
         <p>Price: ${bidding_price}</p>
         <Button
           onclick={() => onChoosePlayer(id)}
-          label={"Choose Player"}
+          label={selected.includes(id) ? "Chosen Player" : "Choose Player"}
+          bg={selected.includes(id) ? "#A7B49E" : null}
         ></Button>
       </div>
     </div>

@@ -45,11 +45,11 @@ const Players = ({ playersData, onChoosePlayer, selected, onDeletePlayer }) => {
         <div className="flex">
           <Button
             onclick={handleShowAvailable}
-            bg={`${!showSelect ? "#E7FE29" : null}`}
+            bg={!showSelect ? "#E7FE29" : null}
             label={"Available"}
           ></Button>
           <Button
-            bg={`${showSelect ? "#E7FE29" : null}`}
+            bg={showSelect ? "#E7FE29" : null}
             onclick={handleShowSelect}
             label={`Selected(${selectedPlayers.length})`}
           ></Button>
@@ -65,6 +65,7 @@ const Players = ({ playersData, onChoosePlayer, selected, onDeletePlayer }) => {
             onChoosePlayer={onChoosePlayer}
             key={player.id}
             player={player}
+            selected={selected}
           ></PlayerList>
         ))}
       </div>
@@ -83,4 +84,3 @@ const Players = ({ playersData, onChoosePlayer, selected, onDeletePlayer }) => {
 };
 
 export default Players;
-
