@@ -4,6 +4,7 @@ import Banner from "./components/banner/Banner";
 import Players from "./components/players/Players";
 import { useEffect } from "react";
 import Footer from "./components/footer/Footer";
+import { ToastContainer, toast, Bounce } from "react-toastify";
 
 const App = () => {
   const [coins, setCoins] = useState(0);
@@ -22,12 +23,45 @@ const App = () => {
 
   function handleChoosePlayer(id) {
     if (selected.includes(id)) {
-      alert("Player Already Selected");
+      toast.warn("Player Already Selected!", {
+        position: "top-center",
+        autoClose: 3000,
+        hideProgressBar: false,
+        closeOnClick: false,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "dark",
+        transition: Bounce,
+      });
+      return;
+    } else if (selected.length === 6) {
+      toast.warn("You can't select more than 6 players!", {
+        position: "top-center",
+        autoClose: 3000,
+        hideProgressBar: false,
+        closeOnClick: false,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "dark",
+        transition: Bounce,
+      });
       return;
     }
     const player = playersData.find((player) => player.id == id);
     if (player.bidding_price > coins) {
-      alert("Insufficent Balance!");
+      toast.warn("Insufficent Balance!", {
+        position: "top-center",
+        autoClose: 2000,
+        hideProgressBar: false,
+        closeOnClick: false,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "dark",
+        transition: Bounce,
+      });
       return;
     }
     setSelected([...selected, id]);
@@ -56,6 +90,19 @@ const App = () => {
         ></Players>
       </div>
       <Footer></Footer>
+      <ToastContainer
+        position="top-center"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick={false}
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="dark"
+        transition={Bounce}
+      />
     </>
   );
 };
