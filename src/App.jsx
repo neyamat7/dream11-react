@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Navbar from "./components/navbar/Navbar";
 import Banner from "./components/banner/Banner";
-import Players from "./components/Players/Players";
+import Players from "./components/players/Players";
 import { useEffect } from "react";
 
 const App = () => {
@@ -14,7 +14,7 @@ const App = () => {
 
   // fetch all players
   useEffect(() => {
-    fetch("/public/Players.JSON")
+    fetch("/Players.JSON")
       .then((res) => res.json())
       .then((data) => setPlayersData(data));
   }, []);

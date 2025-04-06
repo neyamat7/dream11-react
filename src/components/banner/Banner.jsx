@@ -5,7 +5,7 @@ const Banner = ({ onCoinClaim }) => {
     <div className="mt-5 bg-gray-900 py-8 relative rounded-lg">
       <div className="flex flex-col justify-center text-center items-center space-y-5 bg-transparent z-50">
         <div className="mx-auto">
-          <img src="/public/assets/banner-main.png" alt="" />
+          <img src="/assets/banner-main.png" alt="" />
         </div>
 
         <h1 className="text-white text-4xl font-bold">
