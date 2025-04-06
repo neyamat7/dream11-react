@@ -16,6 +16,21 @@ const App = () => {
 
   // fetch all players
   useEffect(() => {
+    const email = localStorage.getItem("email");
+    if (email) {
+      toast.success(`🎉Hlw ${email}! It’s party time — you're here again!`, {
+        position: "top-center",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: false,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "dark",
+        transition: Bounce,
+      });
+    }
+
     fetch("/Players.JSON")
       .then((res) => res.json())
       .then((data) => setPlayersData(data));

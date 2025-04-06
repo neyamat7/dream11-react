@@ -1,5 +1,6 @@
 import { FaUserAlt } from "react-icons/fa";
 import Button from "../button/Button";
+import ReactStars from "react-stars";
 
 const PlayerList = (props) => {
   const selected = props.selected;
@@ -14,6 +15,7 @@ const PlayerList = (props) => {
     batting_type,
     bowling_type,
     bidding_price,
+    rating,
   } = props.player;
 
   const onChoosePlayer = props.onChoosePlayer;
@@ -45,8 +47,16 @@ const PlayerList = (props) => {
 
       <hr className="border border-gray-100" />
 
-      <div>
+      <div className="flex justify-between items-center">
         <p className="font-semibold">Rating</p>
+        <ReactStars
+          count={5}
+          value={rating}
+          size={25}
+          color2={"#ffd700"}
+          half={true}
+          // edit={false}
+        />
       </div>
 
       <div className="font-semibold">

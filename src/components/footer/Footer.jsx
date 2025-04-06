@@ -44,7 +44,7 @@ const Footer = () => {
             <p className="md:w-[70%] lg:w-[50%] mb-3">
               Subscribe to our newsletter for the latest updates.
             </p>
-            <div className="max-w-[400px]">
+            <div className="max-w-[400px] text-black">
               <InputEmail></InputEmail>
             </div>
           </div>

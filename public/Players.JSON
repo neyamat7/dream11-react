@@ -8,7 +8,8 @@
     "role": "Batsman",
     "batting_type": "Right-hand bat",
     "bowling_type": "None",
-    "bidding_price": 150000000
+    "bidding_price": 150000000,
+    "rating": 5
   },
   {
     "id": 2,
@@ -19,7 +20,8 @@
     "role": "Batsman",
     "batting_type": "Right-hand bat",
     "bowling_type": "None",
-    "bidding_price": 120000000
+    "bidding_price": 120000000,
+    "rating": 4.7
   },
   {
     "id": 3,
@@ -30,7 +32,8 @@
     "role": "Bowler",
     "batting_type": "Right-hand bat",
     "bowling_type": "Leg break",
-    "bidding_price": 80000000
+    "bidding_price": 80000000,
+    "rating": 4.6
   },
   {
     "id": 4,
@@ -41,7 +44,8 @@
     "role": "Batsman",
     "batting_type": "Left-hand bat",
     "bowling_type": "None",
-    "bidding_price": 130000000
+    "bidding_price": 130000000,
+    "rating": 4.4
   },
   {
     "id": 5,
@@ -52,7 +56,8 @@
     "role": "Batsman",
     "batting_type": "Right-hand bat",
     "bowling_type": "None",
-    "bidding_price": 110000000
+    "bidding_price": 110000000,
+    "rating": 4.6
   },
   {
     "id": 6,
@@ -63,7 +68,8 @@
     "role": "Batsman",
     "batting_type": "Right-hand bat",
     "bowling_type": "None",
-    "bidding_price": 140000000
+    "bidding_price": 140000000,
+    "rating": 4.8
   },
   {
     "id": 7,
@@ -74,7 +80,8 @@
     "role": "Batsman",
     "batting_type": "Right-hand bat",
     "bowling_type": "None",
-    "bidding_price": 135000000
+    "bidding_price": 135000000,
+    "rating": 4.7
   },
   {
     "id": 8,
@@ -85,7 +92,8 @@
     "role": "All-rounder",
     "batting_type": "Left-hand bat",
     "bowling_type": "Left-arm orthodox",
-    "bidding_price": 95000000
+    "bidding_price": 95000000,
+    "rating": 4.5
   },
   {
     "id": 9,
@@ -96,7 +104,8 @@
     "role": "All-rounder",
     "batting_type": "Left-hand bat",
     "bowling_type": "Right-arm fast-medium",
-    "bidding_price": 160000000
+    "bidding_price": 160000000,
+    "rating": 4.6
   },
   {
     "id": 10,
@@ -107,7 +116,8 @@
     "role": "Batsman",
     "batting_type": "Right-hand bat",
     "bowling_type": "None",
-    "bidding_price": 105000000
+    "bidding_price": 105000000,
+    "rating": 4.3
   },
   {
     "id": 11,
@@ -118,7 +128,8 @@
     "role": "All-rounder",
     "batting_type": "Right-hand bat",
     "bowling_type": "Right-arm off-break",
-    "bidding_price": 125000000
+    "bidding_price": 125000000,
+    "rating": 4.4
   },
   {
     "id": 12,
@@ -129,6 +140,7 @@
     "role": "Batsman",
     "batting_type": "Left-hand bat",
     "bowling_type": "None",
-    "bidding_price": 80000000
+    "bidding_price": 80000000,
+    "rating": 3.9
   }
 ]
